@@ -1,12 +1,7 @@
-from .example_mod import do_primes
-from importlib.metadata import version as _version, PackageNotFoundError
-try:
-    __version__ = _version(__name__)
-except PackageNotFoundError:
-    pass
+"""
+pyonized - forward modeling of diffuse ionized gas emission through 3D dust geometries
 
+to be set up as we continue adding implementations
+"""
 
-# Then you can be explicit to control what ends up in the namespace,
-__all__ = ['do_primes']
-
-
+# __version__ = ...
